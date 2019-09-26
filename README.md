@@ -1,1 +1,1 @@
-# Pursuit Prijects
+# Pursuit Projects
