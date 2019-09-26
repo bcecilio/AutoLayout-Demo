@@ -92,3 +92,9 @@ print(modResult)
 
 var even = 12 % 6
 print(even)
+
+
+
+
+//Constants
+let pie = 3.14
