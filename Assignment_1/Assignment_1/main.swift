@@ -20,13 +20,13 @@ print()
 switch weapon {
 case "axe":
     sleep(1)
-    print("You are a warrior! You are an young orc about to enter your first Mak'gora, a duel of honor. Frightened and full of adrenaline you stare at your opponent intensely as you continue to sharpen your axe. Suddenly your enemy leaps to strike you!")
+    print("You are a warrior! ⚔️ You are an young orc about to enter your first Mak'gora, a duel of honor. Frightened and full of adrenaline you stare at your opponent intensely as you continue to sharpen your axe. Suddenly your enemy leaps to strike you!")
 case "staff":
     sleep(1)
-    print("You are a mage! While on a research expedition you and your ranging party come across an artifact. It is an ancient object from a different time, or different world perhaps. As you gaze upon it's glowing aura you are overwhelmed with a sense of greed and paranoia, urging you to take the artifact. As you reach for the glimmering orb a cave troll appears")
+    print("You are a mage! 🔮 While on a research expedition you and your ranging party come across an artifact. It is an ancient object from a different time, or different world perhaps. As you gaze upon it's glowing aura you are overwhelmed with a sense of greed and paranoia, urging you to take the artifact. As you reach for the glimmering orb a cave troll appears")
 case "bow and arrow":
     sleep(1)
-    print("You are a hunter! During your a hunting expedition you find a wild boar! After successfully killing the beast you and your hunting party capture your game and proceed to venture back to your village. The ground begins to shake and a thundering roar pierces your ear drums as you realize you've hunted someone else's game. A giant cyclops breaks through the trees and run towards you and your party...")
+    print("You are a hunter! 🏹 During your a hunting expedition you find a wild boar! After successfully killing the beast you and your hunting party capture your game and proceed to venture back to your village. The ground begins to shake and a thundering roar pierces your ear drums as you realize you've hunted someone else's game. A giant cyclops 👁 breaks through the trees and run towards you and your party...")
 default:
     print(".....")
     sleep(3)
@@ -45,7 +45,7 @@ if weapon == "staff" {
     switch fight {
     case "fight":
         sleep(1)
-        print("You reach for your staff and quickly cast a barrier spell to protect yourself and your research party. As the cave troll attempts to break your magical shield with brute force, it begins to exhaust itself. You notice the beast is tired and see an opening and cast firebolt...") // find a dice method to tell the player their damage.
+        print("You reach for your staff and quickly cast a barrier spell to protect yourself and your research party ✨. As the cave troll attempts to break your magical shield with brute force, it begins to exhaust itself. You notice the beast is tired and see an opening and cast firebolt 🔥...") // find a dice method to tell the player their damage.
     case "run":
         sleep(1)
         print("You successfully ran away and made it out of the mysterious cave alive... coward!")
@@ -59,7 +59,7 @@ if weapon == "staff" {
     if randomNumber >= 15 && fight != "run" {
         print("if here \(weapon)")
         sleep(1)
-        print("Critical Strike! You rolled a \(randomNumber)! You have defeated the Cave Troll and successfully retrieved the ancient artifact!")
+        print("💥 Critical Strike! You rolled a \(randomNumber)! You have defeated the Cave Troll and successfully retrieved the ancient artifact!")
     } else if randomNumber <= 15 && fight != "run"{
         print("else here \(weapon)")
         sleep(2)
@@ -89,7 +89,7 @@ if weapon == "axe" {
     if randomNumber >= 15 && fight != "run"{
         sleep(1)
         print()
-        print("Critical Strike! You rolled a \(randomNumber)! You have defeated your opponenet and have won your first Mak'gora!")
+        print("💥 Critical Strike! You rolled a \(randomNumber)! You have defeated your opponenet and have won your first Mak'gora!")
     } else if randomNumber <= 15 && fight != "run"{
         sleep(2)
         print()
@@ -118,7 +118,7 @@ if weapon == "bow and arrow" {
     
     if randomNumber >= 15 && fight != "run"{
         sleep(1)
-        print("Critical Strike! You rolled a \(randomNumber)! You have defeated the mighty cyclops! You retrieve the game you've hunted and procced to leave the forest and return to your village.")
+        print("💥 Critical Strike! You rolled a \(randomNumber)! You have defeated the mighty cyclops! You retrieve the game you've hunted and procced to leave the forest and return to your village.")
     } else if randomNumber <= 15 && fight != "run"{
         sleep(2)
         print("You rolled a \(randomNumber). You fire your arrow but miss your mark! Roll again quickly!")
