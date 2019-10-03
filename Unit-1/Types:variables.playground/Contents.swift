@@ -92,7 +92,7 @@ balance -= 180000
 
 print(balance)
 
-// Floating point division keep s decimals
+// Floating point division keeps decimals
 let floatingPointDivision = 16.0 / 3.0
 print("floating point division is \(floatingPointDivision)")
 
